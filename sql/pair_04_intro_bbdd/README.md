@@ -12,51 +12,51 @@ sql/pair_04_intro_bbdd/
 ├── biblioteca_modelo.md
 ├── conferencias_modelo.md
 ├── bonus_normalizacion.md
-├── biblioteca.mwb                 # (se añadirá) Modelo Workbench
-├── biblioteca_diagrama.png        # (se añadirá) Export del diagrama
-├── conferencias.mwb               # (se añadirá) Modelo Workbench
-└── conferencias_diagrama.png      # (se añadirá) Export del diagrama
+├── biblioteca.mwb               
+├── biblioteca_diagrama.png     
+├── conferencias.mwb             
+└── conferencias_diagrama.png     
 ```
 
-1) Diseño de una base de datos (Biblioteca)
+### 1) Diseño de una base de datos (Biblioteca)
 
-    Objetivo
+Objetivo
 
-    Diseñar un sistema para gestionar:
+Diseñar un sistema para gestionar:
 
-    Libros
+- Libros
 
-    Autores
+- Autores
 
-    Usuarios
+- Usuarios
 
-    Préstamos
+- Préstamos
 
-    📌 Entregable: modelo conceptual + relaciones + claves + diagrama ER en Workbench.
+📌 Entregable: modelo conceptual + relaciones + claves + diagrama ER en Workbench.
 
-    ➡️ Detalle completo del diseño: biblioteca_modelo.md
-    ➡️ Diagrama ER: biblioteca_diagrama.png (y archivo fuente biblioteca.mwb)
+➡️ Detalle completo del diseño: biblioteca_modelo.md
+➡️ Diagrama ER: biblioteca_diagrama.png (y archivo fuente biblioteca.mwb)
 
-2) Diseño de Bases de Datos Asistido por IA (Conferencias)
+### 2) Diseño de Bases de Datos Asistido por IA (Conferencias)
 
-    Objetivo
+Objetivo
 
-    Diseñar una base de datos completa para conferencias académicas, utilizando Ollama como apoyo para:
+Diseñar una base de datos completa para conferencias académicas, utilizando Ollama como apoyo para:
 
-    Identificar tablas necesarias (incluyendo intermedias N:M)
+Identificar tablas necesarias (incluyendo intermedias N:M)
 
-    Validar normalización (3FN)
+Validar normalización (3FN)
 
-    Proponer tipos de datos y constraints
+Proponer tipos de datos y constraints
 
-    Generar SQL (en el siguiente pair)
+Generar SQL (en el siguiente pair)
 
-    📌 Entregable: modelo conceptual + tablas finales + decisiones de normalización.
+📌 Entregable: modelo conceptual + tablas finales + decisiones de normalización.
 
-    ➡️ Detalle completo del diseño: conferencias_modelo.md
-    ➡️ Diagrama ER: conferencias_diagrama.png (y archivo fuente conferencias.mwb)
+➡️ Detalle completo del diseño: conferencias_modelo.md
+➡️ Diagrama ER: conferencias_diagrama.png (y archivo fuente conferencias.mwb)
 
-3) Bonus — Normalización a 3FN (sin entrega obligatoria)
+### 3) Bonus — Normalización a 3FN (sin entrega obligatoria)
 
 Se parte de una tabla no normalizada (alumnas + asignaturas + nota) y se propone un diseño en 3FN.
 
